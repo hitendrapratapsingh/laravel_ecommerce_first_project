@@ -20,6 +20,13 @@ Route::post('login', 'API\UserController@login');
 
 Route::post('register', 'API\UserController@register');
 
+Route::post('products', 'API\ProductController@save');
+
+
 Route::group(['middleware' => 'auth:api'], function(){
-Route::post('details', 'API\UserController@details');
+
+    Route::post('details', 'API\UserController@details');
+
+    #Route::get('products', 'API\ProductController@save');
+
 });
