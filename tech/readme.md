@@ -1,3 +1,21 @@
+run php artisan migrate
+
+run php artisan make:auth
+
+php artisan make:model Profile -mcr
+php artisan make:model Product -mcr
+php artisan make:model Order -mcr
+php artisan make:model Payment -mcr
+php artisan make:model Category -mcr
+php artisan make:model Role -mcr
+
+php artisan migration
+
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
