@@ -16,6 +16,20 @@ php artisan make:model Role -mcr
 
 php artisan migration
 
+if any change like add column in tables then use command 
+
+php artisan migrate:fresh
+
+For Change devDependencies from package.json
+
+php artisan preset none
+
+For Add Bootstrap
+
+php artisan preset bootstrap
+
+
+
 
 
 
